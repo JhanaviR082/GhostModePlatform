@@ -1,3 +1,4 @@
+
 Ghost Mode
 
 Ghost Mode is a web-based platform that helps users take control of their device usage through self-initiated digital detox sessions. Users can set custom timers, receive motivational tips during detox, and track their progress over time. With a clean, minimalist UI and fully responsive design, Ghost Mode encourages self-discipline and focused offline time without imposing restrictions.
@@ -38,3 +39,4 @@ charset-normalizer 3.4.2 & idna 3.10 (Encoding and URL support)
 Type & Compatibility:
 
 typing-extensions 4.13.2 (Extended type hints support)
+
