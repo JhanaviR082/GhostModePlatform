@@ -30,20 +30,20 @@
 * typing-extensions 4.13.2 (Extended type hints support)
 
 
-## 🐳 Docker 
+### 🐳 Docker 
 Ghost Mode is dockerized to simplify deployment and ensure consistent environments across machines. 
 Using Docker:
-#### Build the Docker image
+#### -Build the Docker image
 docker build -t ghostmode-image .
 
-#### Run the container
+#### -Run the container
 docker run -p 8000:8000 -v $(pwd):/ghostmodeplatform ghostmode-image
 
-#### Optional: Enter container shell for debugging
+#### -Optional: Enter container shell for debugging
 docker run -it -p 8000:8000 -v $(pwd):/ghostmodeplatform ghostmode-image /bin/bash
 
 
-## ☁️ AWS Cloud Deployment (Elastic Beanstalk)
+### ☁️ AWS Cloud Deployment (Elastic Beanstalk)
 Ghost Mode can be deployed to AWS using Docker for a live, scalable setup.
 
 #### 1️⃣ Initialize Elastic Beanstalk 
