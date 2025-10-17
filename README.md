@@ -1,5 +1,5 @@
 
-## 👻 Ghost Mode
+# 👻 Ghost Mode
 
 <small>**Ghost Mode** is a web-based platform that helps users take control of their device usage through self-initiated digital detox sessions. Users can set custom timers and receive motivational tips during sessions to stay focused and build healthier device habits.</small>
 
@@ -33,24 +33,24 @@
 ## 🐳 Docker 
 Ghost Mode is dockerized to simplify deployment and ensure consistent environments across machines. 
 Using Docker:
-# Build the Docker image
+#### Build the Docker image
 docker build -t ghostmode-image .
 
-# Run the container
+#### Run the container
 docker run -p 8000:8000 -v $(pwd):/ghostmodeplatform ghostmode-image
 
-# Optional: Enter container shell for debugging
+#### Optional: Enter container shell for debugging
 docker run -it -p 8000:8000 -v $(pwd):/ghostmodeplatform ghostmode-image /bin/bash
 
 
 ## ☁️ AWS Cloud Deployment (Elastic Beanstalk)
 Ghost Mode can be deployed to AWS using Docker for a live, scalable setup.
 
-# 1️⃣ Initialize Elastic Beanstalk 
+#### 1️⃣ Initialize Elastic Beanstalk 
 eb init -p docker ghostmode-app --region us-east-1
 
-# 2️⃣ Create an environment and deploy the container
+#### 2️⃣ Create an environment and deploy the container
 eb create ghostmode-env
 
-# 3️⃣ Launch app in the browser
+#### 3️⃣ Launch app in the browser
 eb open
