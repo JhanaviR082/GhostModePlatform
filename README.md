@@ -14,20 +14,20 @@
 
 # **Tech Stack**
 
-# **Backend & Frameworks**
+# *Backend & Frameworks*
 
 * Django 4.2.21 (Web framework)
 * ASGI Ref 3.8.1 (Asynchronous server gateway interface support)
 * SQLParse 0.5.3 (SQL parsing for Django ORM)
 
-# **HTTP & Networking**
+# *HTTP & Networking*
 
 * Requests 2.32.3 (HTTP requests)
 * urllib3 2.4.0 (HTTP client)
 * Certifi 2025.4.26 (SSL certificates)
 * charset-normalizer 3.4.2 & idna 3.10 (Encoding and URL support)
 
-# **Type & Compatibility**
+# *Type & Compatibility*
 
 * typing-extensions 4.13.2 (Extended type hints support)
 
